@@ -1,0 +1,6 @@
+/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles/clean_test_results.dir
+/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles/doxygen.dir
+/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/gtest/CMakeFiles/gtest.dir
+/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/gtest/CMakeFiles/gtest_main.dir
+/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles/run_tests.dir
+/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles/tests.dir
