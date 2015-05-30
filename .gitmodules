@@ -1,3 +1,6 @@
 [submodule "Perception"]
 	path = Perception
 	url = https://github.com/DriveAI/Perception.git
+[submodule "src/Perception"]
+	path = src/Perception
+	url = https://github.com/DriveAI/Perception.git
