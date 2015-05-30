@@ -150,146 +150,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Perception/CMakeFiles/Perception_gencpp.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_gencpp.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_gencpp.dir/rule
-
-# Convenience name for target.
-Perception_gencpp: Perception/CMakeFiles/Perception_gencpp.dir/rule
-.PHONY : Perception_gencpp
-
-# fast build rule for target.
-Perception_gencpp/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_gencpp.dir/build.make Perception/CMakeFiles/Perception_gencpp.dir/build
-.PHONY : Perception_gencpp/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_generate_messages.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_generate_messages.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_generate_messages.dir/rule
-
-# Convenience name for target.
-Perception_generate_messages: Perception/CMakeFiles/Perception_generate_messages.dir/rule
-.PHONY : Perception_generate_messages
-
-# fast build rule for target.
-Perception_generate_messages/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_generate_messages.dir/build.make Perception/CMakeFiles/Perception_generate_messages.dir/build
-.PHONY : Perception_generate_messages/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_generate_messages_cpp.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_generate_messages_cpp.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-Perception_generate_messages_cpp: Perception/CMakeFiles/Perception_generate_messages_cpp.dir/rule
-.PHONY : Perception_generate_messages_cpp
-
-# fast build rule for target.
-Perception_generate_messages_cpp/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_generate_messages_cpp.dir/build.make Perception/CMakeFiles/Perception_generate_messages_cpp.dir/build
-.PHONY : Perception_generate_messages_cpp/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_generate_messages_java.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_generate_messages_java.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_generate_messages_java.dir/rule
-
-# Convenience name for target.
-Perception_generate_messages_java: Perception/CMakeFiles/Perception_generate_messages_java.dir/rule
-.PHONY : Perception_generate_messages_java
-
-# fast build rule for target.
-Perception_generate_messages_java/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_generate_messages_java.dir/build.make Perception/CMakeFiles/Perception_generate_messages_java.dir/build
-.PHONY : Perception_generate_messages_java/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_generate_messages_java_gradle.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_generate_messages_java_gradle.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_generate_messages_java_gradle.dir/rule
-
-# Convenience name for target.
-Perception_generate_messages_java_gradle: Perception/CMakeFiles/Perception_generate_messages_java_gradle.dir/rule
-.PHONY : Perception_generate_messages_java_gradle
-
-# fast build rule for target.
-Perception_generate_messages_java_gradle/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_generate_messages_java_gradle.dir/build.make Perception/CMakeFiles/Perception_generate_messages_java_gradle.dir/build
-.PHONY : Perception_generate_messages_java_gradle/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_generate_messages_lisp.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_generate_messages_lisp.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-Perception_generate_messages_lisp: Perception/CMakeFiles/Perception_generate_messages_lisp.dir/rule
-.PHONY : Perception_generate_messages_lisp
-
-# fast build rule for target.
-Perception_generate_messages_lisp/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_generate_messages_lisp.dir/build.make Perception/CMakeFiles/Perception_generate_messages_lisp.dir/build
-.PHONY : Perception_generate_messages_lisp/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_generate_messages_py.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_generate_messages_py.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_generate_messages_py.dir/rule
-
-# Convenience name for target.
-Perception_generate_messages_py: Perception/CMakeFiles/Perception_generate_messages_py.dir/rule
-.PHONY : Perception_generate_messages_py
-
-# fast build rule for target.
-Perception_generate_messages_py/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_generate_messages_py.dir/build.make Perception/CMakeFiles/Perception_generate_messages_py.dir/build
-.PHONY : Perception_generate_messages_py/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_genjava.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_genjava.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_genjava.dir/rule
-
-# Convenience name for target.
-Perception_genjava: Perception/CMakeFiles/Perception_genjava.dir/rule
-.PHONY : Perception_genjava
-
-# fast build rule for target.
-Perception_genjava/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_genjava.dir/build.make Perception/CMakeFiles/Perception_genjava.dir/build
-.PHONY : Perception_genjava/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_genlisp.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_genlisp.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_genlisp.dir/rule
-
-# Convenience name for target.
-Perception_genlisp: Perception/CMakeFiles/Perception_genlisp.dir/rule
-.PHONY : Perception_genlisp
-
-# fast build rule for target.
-Perception_genlisp/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_genlisp.dir/build.make Perception/CMakeFiles/Perception_genlisp.dir/build
-.PHONY : Perception_genlisp/fast
-
-# Convenience name for target.
-Perception/CMakeFiles/Perception_genpy.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Perception_genpy.dir/rule
-.PHONY : Perception/CMakeFiles/Perception_genpy.dir/rule
-
-# Convenience name for target.
-Perception_genpy: Perception/CMakeFiles/Perception_genpy.dir/rule
-.PHONY : Perception_genpy
-
-# fast build rule for target.
-Perception_genpy/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Perception_genpy.dir/build.make Perception/CMakeFiles/Perception_genpy.dir/build
-.PHONY : Perception_genpy/fast
-
-# Convenience name for target.
 Perception/CMakeFiles/Test.dir/rule:
 	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Test.dir/rule
 .PHONY : Perception/CMakeFiles/Test.dir/rule
@@ -302,6 +162,48 @@ Test: Perception/CMakeFiles/Test.dir/rule
 Test/fast:
 	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Test.dir/build.make Perception/CMakeFiles/Test.dir/build
 .PHONY : Test/fast
+
+# Convenience name for target.
+Perception/CMakeFiles/_run_tests_Perception.dir/rule:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/_run_tests_Perception.dir/rule
+.PHONY : Perception/CMakeFiles/_run_tests_Perception.dir/rule
+
+# Convenience name for target.
+_run_tests_Perception: Perception/CMakeFiles/_run_tests_Perception.dir/rule
+.PHONY : _run_tests_Perception
+
+# fast build rule for target.
+_run_tests_Perception/fast:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/_run_tests_Perception.dir/build.make Perception/CMakeFiles/_run_tests_Perception.dir/build
+.PHONY : _run_tests_Perception/fast
+
+# Convenience name for target.
+Perception/CMakeFiles/_run_tests_Perception_gtest.dir/rule:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/_run_tests_Perception_gtest.dir/rule
+.PHONY : Perception/CMakeFiles/_run_tests_Perception_gtest.dir/rule
+
+# Convenience name for target.
+_run_tests_Perception_gtest: Perception/CMakeFiles/_run_tests_Perception_gtest.dir/rule
+.PHONY : _run_tests_Perception_gtest
+
+# fast build rule for target.
+_run_tests_Perception_gtest/fast:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/_run_tests_Perception_gtest.dir/build.make Perception/CMakeFiles/_run_tests_Perception_gtest.dir/build
+.PHONY : _run_tests_Perception_gtest/fast
+
+# Convenience name for target.
+Perception/CMakeFiles/_run_tests_Perception_gtest_utest.dir/rule:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/_run_tests_Perception_gtest_utest.dir/rule
+.PHONY : Perception/CMakeFiles/_run_tests_Perception_gtest_utest.dir/rule
+
+# Convenience name for target.
+_run_tests_Perception_gtest_utest: Perception/CMakeFiles/_run_tests_Perception_gtest_utest.dir/rule
+.PHONY : _run_tests_Perception_gtest_utest
+
+# fast build rule for target.
+_run_tests_Perception_gtest_utest/fast:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/_run_tests_Perception_gtest_utest.dir/build.make Perception/CMakeFiles/_run_tests_Perception_gtest_utest.dir/build
+.PHONY : _run_tests_Perception_gtest_utest/fast
 
 # Convenience name for target.
 Perception/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
@@ -388,6 +290,48 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+Perception/CMakeFiles/run_tests_Perception.dir/rule:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/run_tests_Perception.dir/rule
+.PHONY : Perception/CMakeFiles/run_tests_Perception.dir/rule
+
+# Convenience name for target.
+run_tests_Perception: Perception/CMakeFiles/run_tests_Perception.dir/rule
+.PHONY : run_tests_Perception
+
+# fast build rule for target.
+run_tests_Perception/fast:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/run_tests_Perception.dir/build.make Perception/CMakeFiles/run_tests_Perception.dir/build
+.PHONY : run_tests_Perception/fast
+
+# Convenience name for target.
+Perception/CMakeFiles/run_tests_Perception_gtest.dir/rule:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/run_tests_Perception_gtest.dir/rule
+.PHONY : Perception/CMakeFiles/run_tests_Perception_gtest.dir/rule
+
+# Convenience name for target.
+run_tests_Perception_gtest: Perception/CMakeFiles/run_tests_Perception_gtest.dir/rule
+.PHONY : run_tests_Perception_gtest
+
+# fast build rule for target.
+run_tests_Perception_gtest/fast:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/run_tests_Perception_gtest.dir/build.make Perception/CMakeFiles/run_tests_Perception_gtest.dir/build
+.PHONY : run_tests_Perception_gtest/fast
+
+# Convenience name for target.
+Perception/CMakeFiles/run_tests_Perception_gtest_utest.dir/rule:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/run_tests_Perception_gtest_utest.dir/rule
+.PHONY : Perception/CMakeFiles/run_tests_Perception_gtest_utest.dir/rule
+
+# Convenience name for target.
+run_tests_Perception_gtest_utest: Perception/CMakeFiles/run_tests_Perception_gtest_utest.dir/rule
+.PHONY : run_tests_Perception_gtest_utest
+
+# fast build rule for target.
+run_tests_Perception_gtest_utest/fast:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/run_tests_Perception_gtest_utest.dir/build.make Perception/CMakeFiles/run_tests_Perception_gtest_utest.dir/build
+.PHONY : run_tests_Perception_gtest_utest/fast
+
+# Convenience name for target.
 Perception/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
 	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : Perception/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
@@ -429,6 +373,44 @@ std_msgs_generate_messages_py/fast:
 	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/std_msgs_generate_messages_py.dir/build.make Perception/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+# Convenience name for target.
+Perception/CMakeFiles/utest.dir/rule:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/utest.dir/rule
+.PHONY : Perception/CMakeFiles/utest.dir/rule
+
+# Convenience name for target.
+utest: Perception/CMakeFiles/utest.dir/rule
+.PHONY : utest
+
+# fast build rule for target.
+utest/fast:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/build
+.PHONY : utest/fast
+
+src/Foo.o: src/Foo.cpp.o
+.PHONY : src/Foo.o
+
+# target to build an object file
+src/Foo.cpp.o:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/Foo.cpp.o
+.PHONY : src/Foo.cpp.o
+
+src/Foo.i: src/Foo.cpp.i
+.PHONY : src/Foo.i
+
+# target to preprocess a source file
+src/Foo.cpp.i:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/Foo.cpp.i
+.PHONY : src/Foo.cpp.i
+
+src/Foo.s: src/Foo.cpp.s
+.PHONY : src/Foo.s
+
+# target to generate assembly for a file
+src/Foo.cpp.s:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/Foo.cpp.s
+.PHONY : src/Foo.cpp.s
+
 src/Test.o: src/Test.cpp.o
 .PHONY : src/Test.o
 
@@ -453,23 +435,40 @@ src/Test.cpp.s:
 	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Test.dir/build.make Perception/CMakeFiles/Test.dir/src/Test.cpp.s
 .PHONY : src/Test.cpp.s
 
+src/test/utest.o: src/test/utest.cpp.o
+.PHONY : src/test/utest.o
+
+# target to build an object file
+src/test/utest.cpp.o:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/test/utest.cpp.o
+.PHONY : src/test/utest.cpp.o
+
+src/test/utest.i: src/test/utest.cpp.i
+.PHONY : src/test/utest.i
+
+# target to preprocess a source file
+src/test/utest.cpp.i:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/test/utest.cpp.i
+.PHONY : src/test/utest.cpp.i
+
+src/test/utest.s: src/test/utest.cpp.s
+.PHONY : src/test/utest.s
+
+# target to generate assembly for a file
+src/test/utest.cpp.s:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/test/utest.cpp.s
+.PHONY : src/test/utest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Perception_gencpp"
-	@echo "... Perception_generate_messages"
-	@echo "... Perception_generate_messages_cpp"
-	@echo "... Perception_generate_messages_java"
-	@echo "... Perception_generate_messages_java_gradle"
-	@echo "... Perception_generate_messages_lisp"
-	@echo "... Perception_generate_messages_py"
-	@echo "... Perception_genjava"
-	@echo "... Perception_genlisp"
-	@echo "... Perception_genpy"
 	@echo "... Test"
+	@echo "... _run_tests_Perception"
+	@echo "... _run_tests_Perception_gtest"
+	@echo "... _run_tests_Perception_gtest_utest"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
@@ -482,13 +481,23 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... run_tests_Perception"
+	@echo "... run_tests_Perception_gtest"
+	@echo "... run_tests_Perception_gtest_utest"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
+	@echo "... utest"
+	@echo "... src/Foo.o"
+	@echo "... src/Foo.i"
+	@echo "... src/Foo.s"
 	@echo "... src/Test.o"
 	@echo "... src/Test.i"
 	@echo "... src/Test.s"
+	@echo "... src/test/utest.o"
+	@echo "... src/test/utest.i"
+	@echo "... src/test/utest.s"
 .PHONY : help
 
 

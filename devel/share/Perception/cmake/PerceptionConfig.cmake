@@ -145,7 +145,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(Perception_EXPORTED_TARGETS "Perception_generate_messages_cpp;Perception_generate_messages_java;Perception_generate_messages_lisp;Perception_generate_messages_py")
+set(Perception_EXPORTED_TARGETS "")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${Perception_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -182,7 +182,7 @@ foreach(depend ${depends})
   list(APPEND Perception_EXPORTED_TARGETS ${${Perception_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "Perception-msg-extras.cmake")
+set(pkg_cfg_extras "")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${Perception_DIR}/${extra})
