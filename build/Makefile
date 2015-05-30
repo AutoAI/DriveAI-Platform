@@ -371,17 +371,17 @@ Perception_genpy/fast:
 .PHONY : Perception_genpy/fast
 
 #=============================================================================
-# Target rules for targets named _Perception_generate_messages_check_deps_Num
+# Target rules for targets named Test
 
 # Build rule for target.
-_Perception_generate_messages_check_deps_Num: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _Perception_generate_messages_check_deps_Num
-.PHONY : _Perception_generate_messages_check_deps_Num
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
 
 # fast build rule for target.
-_Perception_generate_messages_check_deps_Num/fast:
-	$(MAKE) -f Perception/CMakeFiles/_Perception_generate_messages_check_deps_Num.dir/build.make Perception/CMakeFiles/_Perception_generate_messages_check_deps_Num.dir/build
-.PHONY : _Perception_generate_messages_check_deps_Num/fast
+Test/fast:
+	$(MAKE) -f Perception/CMakeFiles/Test.dir/build.make Perception/CMakeFiles/Test.dir/build
+.PHONY : Test/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
@@ -500,19 +500,6 @@ std_msgs_generate_messages_py/fast:
 	$(MAKE) -f Perception/CMakeFiles/std_msgs_generate_messages_py.dir/build.make Perception/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
-#=============================================================================
-# Target rules for targets named talker
-
-# Build rule for target.
-talker: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 talker
-.PHONY : talker
-
-# fast build rule for target.
-talker/fast:
-	$(MAKE) -f Perception/CMakeFiles/talker.dir/build.make Perception/CMakeFiles/talker.dir/build
-.PHONY : talker/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -543,7 +530,7 @@ help:
 	@echo "... Perception_genjava"
 	@echo "... Perception_genlisp"
 	@echo "... Perception_genpy"
-	@echo "... _Perception_generate_messages_check_deps_Num"
+	@echo "... Test"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
@@ -553,7 +540,6 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... talker"
 .PHONY : help
 
 

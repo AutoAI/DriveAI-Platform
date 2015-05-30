@@ -8,7 +8,7 @@
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/Perception_genjava.dir
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/Perception_genlisp.dir
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/Perception_genpy.dir
-/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/_Perception_generate_messages_check_deps_Num.dir
+/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/Test.dir
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles/clean_test_results.dir
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles/download_extra_data.dir
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles/doxygen.dir
@@ -24,5 +24,4 @@
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/std_msgs_generate_messages_py.dir
-/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/CMakeFiles/talker.dir
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles/tests.dir

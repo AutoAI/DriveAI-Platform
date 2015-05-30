@@ -1,6 +1,5 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/Perception_generate_messages_cpp"
-  "/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/include/Perception/Num.h"
 )
 
 # Per-language clean rules from dependency scanning.

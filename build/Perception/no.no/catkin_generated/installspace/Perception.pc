@@ -1,8 +1,0 @@
-prefix=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/install
-
-Name: Perception
-Description: Description of Perception
-Version: 0.0.0
-Cflags: -I/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/install/include
-Libs: -L/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/install/lib 
-Requires: message_runtime

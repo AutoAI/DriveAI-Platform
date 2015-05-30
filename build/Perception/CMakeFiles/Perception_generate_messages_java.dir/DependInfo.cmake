@@ -16,7 +16,6 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/include"
   "/opt/ros/indigo/include"
   "/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception/include"
   )

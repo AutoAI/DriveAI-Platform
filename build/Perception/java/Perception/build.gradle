@@ -58,7 +58,6 @@ task generateSources (type: JavaExec) {
 dependencies {
     compile 'org.ros.rosjava_bootstrap:message_generation:[0.2,0.3)'
       compile 'org.ros.rosjava_messages:roscpp:1.11.13'
-  compile 'org.ros.rosjava_messages:std_msgs:0.5.9'
 
 }
 

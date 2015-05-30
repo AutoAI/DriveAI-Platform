@@ -1,12 +1,9 @@
 Manifest-Version: 1.0
-Export-Package: Perception;version="0.0.0";uses:="org.ros.internal.mes
- sage"
 Bundle-Version: 0.0.0
 Tool: Bnd-2.1.0.20130426-122213
 Bundle-Name: Perception
-Bnd-LastModified: 1432965012000
+Bnd-LastModified: 1432968022000
 Created-By: 1.7.0_79 (Oracle Corporation)
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: org.ros.rosjava_messages.Perception
-Import-Package: org.ros.internal.message
 
