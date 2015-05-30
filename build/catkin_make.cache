@@ -1,2 +1,0 @@
-
--DCATKIN_DEVEL_PREFIX=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel -DCMAKE_INSTALL_PREFIX=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/install -G Unix Makefiles
