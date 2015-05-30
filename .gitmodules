@@ -4,3 +4,6 @@
 [submodule "src/Perception"]
 	path = src/Perception
 	url = https://github.com/DriveAI/Perception.git
+[submodule "Tools"]
+	path = Tools
+	url = https://github.com/Parth-Mehrotra/Tools.git
