@@ -72,39 +72,14 @@ Perception/CMakeFiles/utest.dir/src/test/utest.cpp.o.provides: Perception/CMakeF
 
 Perception/CMakeFiles/utest.dir/src/test/utest.cpp.o.provides.build: Perception/CMakeFiles/utest.dir/src/test/utest.cpp.o
 
-Perception/CMakeFiles/utest.dir/src/Foo.cpp.o: Perception/CMakeFiles/utest.dir/flags.make
-Perception/CMakeFiles/utest.dir/src/Foo.cpp.o: /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception/src/Foo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Perception/CMakeFiles/utest.dir/src/Foo.cpp.o"
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/utest.dir/src/Foo.cpp.o -c /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception/src/Foo.cpp
-
-Perception/CMakeFiles/utest.dir/src/Foo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utest.dir/src/Foo.cpp.i"
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception/src/Foo.cpp > CMakeFiles/utest.dir/src/Foo.cpp.i
-
-Perception/CMakeFiles/utest.dir/src/Foo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utest.dir/src/Foo.cpp.s"
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception/src/Foo.cpp -o CMakeFiles/utest.dir/src/Foo.cpp.s
-
-Perception/CMakeFiles/utest.dir/src/Foo.cpp.o.requires:
-.PHONY : Perception/CMakeFiles/utest.dir/src/Foo.cpp.o.requires
-
-Perception/CMakeFiles/utest.dir/src/Foo.cpp.o.provides: Perception/CMakeFiles/utest.dir/src/Foo.cpp.o.requires
-	$(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/Foo.cpp.o.provides.build
-.PHONY : Perception/CMakeFiles/utest.dir/src/Foo.cpp.o.provides
-
-Perception/CMakeFiles/utest.dir/src/Foo.cpp.o.provides.build: Perception/CMakeFiles/utest.dir/src/Foo.cpp.o
-
 # Object files for target utest
 utest_OBJECTS = \
-"CMakeFiles/utest.dir/src/test/utest.cpp.o" \
-"CMakeFiles/utest.dir/src/Foo.cpp.o"
+"CMakeFiles/utest.dir/src/test/utest.cpp.o"
 
 # External object files for target utest
 utest_EXTERNAL_OBJECTS =
 
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib/Perception/utest: Perception/CMakeFiles/utest.dir/src/test/utest.cpp.o
-/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib/Perception/utest: Perception/CMakeFiles/utest.dir/src/Foo.cpp.o
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib/Perception/utest: Perception/CMakeFiles/utest.dir/build.make
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib/Perception/utest: /usr/lib/libgtest.a
 /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib/Perception/utest: /opt/ros/indigo/lib/libroscpp.so
@@ -133,7 +108,6 @@ Perception/CMakeFiles/utest.dir/build: /home/parthmehrotra/Projects/HighPriority
 .PHONY : Perception/CMakeFiles/utest.dir/build
 
 Perception/CMakeFiles/utest.dir/requires: Perception/CMakeFiles/utest.dir/src/test/utest.cpp.o.requires
-Perception/CMakeFiles/utest.dir/requires: Perception/CMakeFiles/utest.dir/src/Foo.cpp.o.requires
 .PHONY : Perception/CMakeFiles/utest.dir/requires
 
 Perception/CMakeFiles/utest.dir/clean:

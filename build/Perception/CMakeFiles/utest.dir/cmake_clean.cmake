@@ -1,6 +1,5 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/utest.dir/src/test/utest.cpp.o"
-  "CMakeFiles/utest.dir/src/Foo.cpp.o"
   "/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib/Perception/utest.pdb"
   "/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib/Perception/utest"
 )

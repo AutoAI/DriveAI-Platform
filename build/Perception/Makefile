@@ -150,18 +150,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Perception/CMakeFiles/Test.dir/rule:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Test.dir/rule
-.PHONY : Perception/CMakeFiles/Test.dir/rule
+Perception/CMakeFiles/Run.dir/rule:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f CMakeFiles/Makefile2 Perception/CMakeFiles/Run.dir/rule
+.PHONY : Perception/CMakeFiles/Run.dir/rule
 
 # Convenience name for target.
-Test: Perception/CMakeFiles/Test.dir/rule
-.PHONY : Test
+Run: Perception/CMakeFiles/Run.dir/rule
+.PHONY : Run
 
 # fast build rule for target.
-Test/fast:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Test.dir/build.make Perception/CMakeFiles/Test.dir/build
-.PHONY : Test/fast
+Run/fast:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Run.dir/build.make Perception/CMakeFiles/Run.dir/build
+.PHONY : Run/fast
 
 # Convenience name for target.
 Perception/CMakeFiles/_run_tests_Perception.dir/rule:
@@ -387,53 +387,29 @@ utest/fast:
 	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/build
 .PHONY : utest/fast
 
-src/Foo.o: src/Foo.cpp.o
-.PHONY : src/Foo.o
+src/SeededDepthMap.o: src/SeededDepthMap.cpp.o
+.PHONY : src/SeededDepthMap.o
 
 # target to build an object file
-src/Foo.cpp.o:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/Foo.cpp.o
-.PHONY : src/Foo.cpp.o
+src/SeededDepthMap.cpp.o:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Run.dir/build.make Perception/CMakeFiles/Run.dir/src/SeededDepthMap.cpp.o
+.PHONY : src/SeededDepthMap.cpp.o
 
-src/Foo.i: src/Foo.cpp.i
-.PHONY : src/Foo.i
-
-# target to preprocess a source file
-src/Foo.cpp.i:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/Foo.cpp.i
-.PHONY : src/Foo.cpp.i
-
-src/Foo.s: src/Foo.cpp.s
-.PHONY : src/Foo.s
-
-# target to generate assembly for a file
-src/Foo.cpp.s:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/utest.dir/build.make Perception/CMakeFiles/utest.dir/src/Foo.cpp.s
-.PHONY : src/Foo.cpp.s
-
-src/Test.o: src/Test.cpp.o
-.PHONY : src/Test.o
-
-# target to build an object file
-src/Test.cpp.o:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Test.dir/build.make Perception/CMakeFiles/Test.dir/src/Test.cpp.o
-.PHONY : src/Test.cpp.o
-
-src/Test.i: src/Test.cpp.i
-.PHONY : src/Test.i
+src/SeededDepthMap.i: src/SeededDepthMap.cpp.i
+.PHONY : src/SeededDepthMap.i
 
 # target to preprocess a source file
-src/Test.cpp.i:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Test.dir/build.make Perception/CMakeFiles/Test.dir/src/Test.cpp.i
-.PHONY : src/Test.cpp.i
+src/SeededDepthMap.cpp.i:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Run.dir/build.make Perception/CMakeFiles/Run.dir/src/SeededDepthMap.cpp.i
+.PHONY : src/SeededDepthMap.cpp.i
 
-src/Test.s: src/Test.cpp.s
-.PHONY : src/Test.s
+src/SeededDepthMap.s: src/SeededDepthMap.cpp.s
+.PHONY : src/SeededDepthMap.s
 
 # target to generate assembly for a file
-src/Test.cpp.s:
-	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Test.dir/build.make Perception/CMakeFiles/Test.dir/src/Test.cpp.s
-.PHONY : src/Test.cpp.s
+src/SeededDepthMap.cpp.s:
+	cd /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build && $(MAKE) -f Perception/CMakeFiles/Run.dir/build.make Perception/CMakeFiles/Run.dir/src/SeededDepthMap.cpp.s
+.PHONY : src/SeededDepthMap.cpp.s
 
 src/test/utest.o: src/test/utest.cpp.o
 .PHONY : src/test/utest.o
@@ -465,7 +441,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Test"
+	@echo "... Run"
 	@echo "... _run_tests_Perception"
 	@echo "... _run_tests_Perception_gtest"
 	@echo "... _run_tests_Perception_gtest_utest"
@@ -489,12 +465,9 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... utest"
-	@echo "... src/Foo.o"
-	@echo "... src/Foo.i"
-	@echo "... src/Foo.s"
-	@echo "... src/Test.o"
-	@echo "... src/Test.i"
-	@echo "... src/Test.s"
+	@echo "... src/SeededDepthMap.o"
+	@echo "... src/SeededDepthMap.i"
+	@echo "... src/SeededDepthMap.s"
 	@echo "... src/test/utest.o"
 	@echo "... src/test/utest.i"
 	@echo "... src/test/utest.s"

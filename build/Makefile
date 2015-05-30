@@ -215,17 +215,17 @@ tests/fast:
 .PHONY : tests/fast
 
 #=============================================================================
-# Target rules for targets named Test
+# Target rules for targets named Run
 
 # Build rule for target.
-Test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Test
-.PHONY : Test
+Run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Run
+.PHONY : Run
 
 # fast build rule for target.
-Test/fast:
-	$(MAKE) -f Perception/CMakeFiles/Test.dir/build.make Perception/CMakeFiles/Test.dir/build
-.PHONY : Test/fast
+Run/fast:
+	$(MAKE) -f Perception/CMakeFiles/Run.dir/build.make Perception/CMakeFiles/Run.dir/build
+.PHONY : Run/fast
 
 #=============================================================================
 # Target rules for targets named _run_tests_Perception
@@ -453,7 +453,7 @@ help:
 	@echo "... run_tests"
 	@echo "... test"
 	@echo "... tests"
-	@echo "... Test"
+	@echo "... Run"
 	@echo "... _run_tests_Perception"
 	@echo "... _run_tests_Perception_gtest"
 	@echo "... _run_tests_Perception_gtest_utest"
