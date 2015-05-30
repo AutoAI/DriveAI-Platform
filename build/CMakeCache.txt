@@ -238,10 +238,10 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 PYTHON_VERSION:STRING=
 
 //Value Computed by CMake
-Perception_BINARY_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/no.no
+Perception_BINARY_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception
 
 //Value Computed by CMake
-Perception_SOURCE_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception/no.no
+Perception_SOURCE_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build
