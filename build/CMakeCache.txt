@@ -26,6 +26,13 @@ CATKIN_DEVEL_PREFIX:PATH=/home/parthmehrotra/Projects/HighPriority/DriveAI/Drive
 //Catkin enable testing
 CATKIN_ENABLE_TESTING:BOOL=ON
 
+//path to which gradle configuration and artifacts are deployed
+// in your workspace
+CATKIN_GLOBAL_GRADLE_DESTINATION:PATH=share/gradle
+
+//path to which maven artifacts are deployed in your workspace
+CATKIN_GLOBAL_MAVEN_DESTINATION:PATH=share/maven
+
 //Catkin skip testing
 CATKIN_SKIP_TESTING:BOOL=OFF
 
@@ -231,10 +238,10 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 PYTHON_VERSION:STRING=
 
 //Value Computed by CMake
-Perception_BINARY_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception
+Perception_BINARY_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/Perception/no.no
 
 //Value Computed by CMake
-Perception_SOURCE_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception
+Perception_SOURCE_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Perception/no.no
 
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build
@@ -266,6 +273,21 @@ catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for genjava.
+genjava_DIR:PATH=/opt/ros/indigo/share/genjava/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/indigo/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/indigo/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
+
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/gtest
 
@@ -294,6 +316,9 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
 
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
+
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
 
@@ -311,6 +336,9 @@ roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for rosjava_build_tools.
+rosjava_build_tools_DIR:PATH=/opt/ros/indigo/share/rosjava_build_tools/cmake
 
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
