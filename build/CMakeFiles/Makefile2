@@ -356,11 +356,11 @@ clean: Perception/CMakeFiles/Perception_gencpp.dir/clean
 # Target rules for target Perception/CMakeFiles/Perception_generate_messages.dir
 
 # All Build rule for target.
-Perception/CMakeFiles/Perception_generate_messages.dir/all: Perception/CMakeFiles/Perception_generate_messages_cpp.dir/all
-Perception/CMakeFiles/Perception_generate_messages.dir/all: Perception/CMakeFiles/Perception_generate_messages_java.dir/all
 Perception/CMakeFiles/Perception_generate_messages.dir/all: Perception/CMakeFiles/Perception_generate_messages_java_gradle.dir/all
-Perception/CMakeFiles/Perception_generate_messages.dir/all: Perception/CMakeFiles/Perception_generate_messages_py.dir/all
+Perception/CMakeFiles/Perception_generate_messages.dir/all: Perception/CMakeFiles/Perception_generate_messages_cpp.dir/all
 Perception/CMakeFiles/Perception_generate_messages.dir/all: Perception/CMakeFiles/Perception_generate_messages_lisp.dir/all
+Perception/CMakeFiles/Perception_generate_messages.dir/all: Perception/CMakeFiles/Perception_generate_messages_java.dir/all
+Perception/CMakeFiles/Perception_generate_messages.dir/all: Perception/CMakeFiles/Perception_generate_messages_py.dir/all
 	$(MAKE) -f Perception/CMakeFiles/Perception_generate_messages.dir/build.make Perception/CMakeFiles/Perception_generate_messages.dir/depend
 	$(MAKE) -f Perception/CMakeFiles/Perception_generate_messages.dir/build.make Perception/CMakeFiles/Perception_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/build/CMakeFiles 
