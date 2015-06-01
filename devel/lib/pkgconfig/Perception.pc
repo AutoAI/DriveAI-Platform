@@ -1,8 +1,8 @@
-prefix=/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel
+prefix=/home/mattbowyer/Driveai-platform/devel
 
 Name: Perception
 Description: Description of Perception
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib 
+Libs: -L/home/mattbowyer/Driveai-platform/devel/lib 
 Requires: message_runtime
