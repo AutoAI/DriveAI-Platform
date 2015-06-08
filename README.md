@@ -44,7 +44,7 @@ catkin_make utest
 ```
 
 ## Running our tests
-There are [four ROS Packages](https://github.com/DriveAI/DriveAI-Platform):
+There are [four ROS Packages](https://github.com/DriveAI/DriveAI-Platform/tree/adding-readme#architecture):
 You can run their tests with the following syntax:
 ```bash
 rosrun <Package-Name> utest
