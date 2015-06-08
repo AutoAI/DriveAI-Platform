@@ -8,13 +8,14 @@ DriveAI Platform is a project designed to bring together
 
 To create a fully autonomous vehicle.
 
+## Architecture
 The platform is built on top of the Robotic Operating System commonly known as ROS.
 The following is our compartmentalization of our problem, in the form of different ROS Nodes.
 
-* Perception: Responsible for collecting raw data from our sensors. Performing object recognition, and giving said objects to the Path-Planning.
-* Navigation: Responsible for keeping track of where the car is with respect to public roads, and calculating the most optimal path from point A to point B. Then conveying that information to Path-Planning
-* Path-Planning: Responsible for taking Perception and Navigation information and sending commands to the Actuation node to actually actuate the vehicle.
-* Actuation: Responsible for actuating the vehicle based on simple inputs.
+* [Perception](https://github.com/DriveAI/Perception): Responsible for collecting raw data from our sensors. Performing object recognition, and giving said objects to the [Path-Planning](https://github.com/DriveAI/Path-Planning).
+* [Navigation](https://github.com/DriveAI/Navigation): Responsible for keeping track of where the car is with respect to public roads, and calculating the most optimal path from point A to point B. Then conveying that information to [Path-Planning](https://github.com/DriveAI/Path-Planning)
+* [Path-Planning](https://github.com/DriveAI/Path-Planning): Responsible for taking [Perception](https://github.com/DriveAI/Perception) and [Navigation](https://github.com/DriveAI/Navigation) information and sending commands to the [Actuation](https://github.com/DriveAI/Actuation) node to actually actuate the vehicle.
+* [Actuation](https://github.com/DriveAI/Actuation): Responsible for actuating the vehicle based on simple inputs.
 
 ## Requirements
 This list of requirements will grow as our hardware needs become increasingly specific.
@@ -43,7 +44,7 @@ catkin_make utest
 ```
 
 ## Running our tests
-There are four ROS Packages:
+There are [four ROS Packages](https://github.com/DriveAI/DriveAI-Platform):
 You can run their tests with the following syntax:
 ```bash
 rosrun <Package-Name> utest
