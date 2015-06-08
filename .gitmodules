@@ -7,3 +7,6 @@
 [submodule "Tools"]
 	path = Tools
 	url = https://github.com/Parth-Mehrotra/Tools.git
+[submodule "src/Actuation"]
+	path = src/Actuation
+	url = https://github.com/DriveAI/Actuation.git
