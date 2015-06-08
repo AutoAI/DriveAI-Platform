@@ -3,3 +3,4 @@ source devel/setup.sh
 
 rosrun Perception Perception_utest
 rosrun Actuation Actuation_utest
+rosrun Navigation Navigation_utest

@@ -7,3 +7,6 @@
 [submodule "src/Actuation"]
 	path = src/Actuation
 	url = https://github.com/DriveAI/Actuation.git
+[submodule "src/Navigation"]
+	path = src/Navigation
+	url = https://github.com/DriveAI/Navigation.git
