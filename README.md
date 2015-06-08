@@ -37,4 +37,14 @@ source devel/setup.<sh|zsh|bash>
 ```
 
 ## Compile
-We are currently in the process of rapidly prototyping our platform.
+We are currently in the process of rapidly prototyping our platform. Currently the most meaningful thing someone can run is our tests.
+```bash
+catkin_make utest
+```
+
+## Running our tests
+There are four ROS Packages:
+You can run their tests with the following syntax:
+```bash
+rosrun <Package-Name> utest
+```
