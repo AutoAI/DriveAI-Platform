@@ -10,3 +10,6 @@
 [submodule "src/Navigation"]
 	path = src/Navigation
 	url = https://github.com/DriveAI/Navigation.git
+[submodule "src/PathPlanning"]
+	path = src/PathPlanning
+	url = https://github.com/DriveAI/PathPlanning.git
