@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/setup.sh
+    local-name: /home/travis/DriveAI-Platform/devel/setup.sh
