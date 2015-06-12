@@ -1,3 +1,4 @@
+![DriveAILogo](readme-assets/DriveAILogo.png)
 # DriveAI Platform
 
 DriveAI Platform is a project designed to bring together
