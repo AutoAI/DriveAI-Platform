@@ -260,7 +260,11 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
+<<<<<<< HEAD
         CMAKE_PREFIX_PATH = '/home/travis/DriveAI-Platform/devel;/opt/ros/indigo'.split(';')
+=======
+        CMAKE_PREFIX_PATH = '/home/travis/DriveAI-Platform/devel;/home/mattbowyer/Driveai-platform/devel;/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel;/opt/ros/indigo'.split(';')
+>>>>>>> parent of 9f24ca0... fixed tests
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:
