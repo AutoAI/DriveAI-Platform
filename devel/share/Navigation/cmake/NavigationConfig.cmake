@@ -67,7 +67,7 @@ set(Navigation_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(Navigation_SOURCE_PREFIX /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Navigation)
+  set(Navigation_SOURCE_PREFIX /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/navigation)
   set(Navigation_DEVEL_PREFIX /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel)
   set(Navigation_INSTALL_PREFIX "")
   set(Navigation_PREFIX ${Navigation_DEVEL_PREFIX})
@@ -103,7 +103,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'Navigation' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Parth Mehrotra <parth.mehrotra@driveai.org>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'Navigation' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/Navigation/${idir}'.  Ask the maintainer 'Parth Mehrotra <parth.mehrotra@driveai.org>' to fix it.")
+      message(FATAL_ERROR "Project 'Navigation' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/src/navigation/${idir}'.  Ask the maintainer 'Parth Mehrotra <parth.mehrotra@driveai.org>' to fix it.")
     endif()
     _list_append_unique(Navigation_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib;/home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /home/parthmehrotra/Projects/HighPriority/DriveAI/DriveAI-Platform/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

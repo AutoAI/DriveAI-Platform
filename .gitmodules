@@ -1,15 +1,15 @@
-[submodule "src/Perception"]
-	path = src/Perception
-	url = https://github.com/DriveAI/Perception.git
+[submodule "src/perception"]
+	path = src/perception
+	url = https://github.com/DriveAI/perception.git
 [submodule "Tools"]
 	path = Tools
 	url = https://github.com/Parth-Mehrotra/Tools.git
-[submodule "src/Actuation"]
-	path = src/Actuation
-	url = https://github.com/DriveAI/Actuation.git
-[submodule "src/Navigation"]
-	path = src/Navigation
-	url = https://github.com/DriveAI/Navigation.git
-[submodule "src/PathPlanning"]
-	path = src/PathPlanning
+[submodule "src/actuation"]
+	path = src/actuation
+	url = https://github.com/DriveAI/actuation.git
+[submodule "src/navigation"]
+	path = src/navigation
+	url = https://github.com/DriveAI/navigation.git
+[submodule "src/path_planning"]
+	path = src/path_planning
 	url = https://github.com/DriveAI/PathPlanning.git
