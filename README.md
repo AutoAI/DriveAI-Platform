@@ -50,3 +50,21 @@ You can run their tests with the following syntax:
 ```bash
 rosrun <Package-Name> utest
 ```
+
+## Contribution
+We welcome everyone to join our project! Fork us today and get started, we thank you in advance.
+
+The overwhelming majority of our codebase is C++, and we use (Google's Styleguide) as our guidlines.
+
+We run the linter (found in the `styles/` folder via the following command:
+```
+cd style
+sh lint_all_files.sh
+```
+
+This essentially runs the linter, and asks it to ignore the 2 space tab requirement.
+
+Ocasionally we run `astyle` to format our code. When we do so, we use the `--indent=tab` flag as such:
+```
+astyle FILE --indent=tab
+```
