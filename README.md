@@ -26,6 +26,7 @@ This list of requirements will grow as our hardware needs become increasingly sp
 ## Download
 ```bash
 git clone --recursive https://github.com/DriveAI/DriveAI-Platform.git
+cd DriveAI-Platform
 git submodule foreach git checkout master
 git submodule foreach git pull origin master
 ```
