@@ -36,6 +36,7 @@ git submodule foreach git pull origin master
 cd DriveAI-Platform
 sh Tools/InstallScripts/install-ros.sh
 source /opt/ros/indigo/setup.<sh|zsh|bash>
+catkin_make
 source devel/setup.<sh|zsh|bash>
 ```
 
@@ -52,7 +53,7 @@ You can run their tests with the following syntax:
 rosrun <Package-Name> utest
 ```
 
-## Contribution
+## Contributing
 We welcome everyone to join our project! Fork us today and get started, we thank you in advance.
 
 The overwhelming majority of our codebase is C++, and we use (Google's Styleguide) as our guidlines.
