@@ -13,3 +13,6 @@
 [submodule "src/path_planning"]
 	path = src/path_planning
 	url = https://github.com/DriveAI/PathPlanning.git
+[submodule "src/rosserial"]
+	path = src/rosserial
+	url = https://github.com/ros-drivers/rosserial.git
